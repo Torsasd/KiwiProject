@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('img/background.jpg'); /* Vervang 'achtergrond.jpg' met de naam van jouw foto */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+header { /* Halfdoorzichtige achtergrond voor header */
+    padding: 20px;
+    text-align: left;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav button {
+    background-color: blue; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text color */
+    padding: 7px 16px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    transition-duration: 0.4s; /* Smooth transition on hover */
+    cursor: pointer; /* Cursor pointer on hover */
+    border-radius: 8px; /* Rounded corners */
+}
+
+
+nav a {
+    color:black;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+section {
+    padding: 50px;
+    text-align:left;
+}
+
+img {
+    size: 30px
+}

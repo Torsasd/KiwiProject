@@ -1,2 +1,1 @@
-randomfidklfs;fjdslk
-gggggggggggg
+<?php $name = "My name is Kiwi!"; echo $name?>

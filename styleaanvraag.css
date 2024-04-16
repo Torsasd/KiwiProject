@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    
+
+  }
+  header {
+    margin: 0 0 -1em; 
+  }
+
+  
+  .nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(20, 0, 0, 0);
+    overflow: auto;
+  }
+  
+  .nav a {
+    font: bold;
+    text-decoration: none;
+    padding: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav a:hover {
+    background-color: rgba(22, 82, 160, 100);
+  }
+  
+  .nav li {
+    padding: none;
+    float: left; /* Remove float for horizontal layout */
+  }
+  
+  header div, nav {
+    padding: none;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.795);
+    padding: 0px  
+  }
+  
+  .logo img {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 192px;
+    padding: none;  
+  }
+
+  .inputsaanvraag {
+    display: flex; /* Flexbox for layout */
+    justify-content: center; /* Distribute elements evenly with space at ends */
+    align-items: center; /* Center elements vertically */
+    background-color: #f5f5f5; /* Light gray background */
+    height: 200px;
+    width: 500px;
+    padding: 20px; /* Reduced padding for tighter layout */
+    margin: 40px auto; /* Center the box horizontally */
+    border: 1px solid #ddd; /* Optional border */
+    border-radius: 5px; /* Optional rounded corners */
+  }
+  
+  .inputsaanvraag input {
+    display: block; /* Stack elements vertically */
+    padding: 5px; /* Adjust padding for better user experience */
+    margin: 5px 0; /* Maintain space between inputs */
+    border: 1px solid #ccc; /* Optional border for definition */
+    border-radius: 3px; /* Optional rounded corners for a modern look */
+    font-size: 16px; /* Set text size */
+  }
+  
+  .inputsaanvraag input[type="submit"] {
+    background-color: #4CAF50; /* Green background for submit button */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Adjust padding for a comfortable button size */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Indicate clickable behavior */
+    margin-top: 1rem; /* Space above submit button */
+    transition: background-color 2s ease-in-out; /* Smooth hover effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inputsaanvraag input[type="submit"]:hover {
+    background-color: #388E3C; /* Darker green on hover */
+  }

@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    
+
+  }
+  header {
+    margin: 0 0 -1em; 
+  }
+
+  
+  .nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(20, 0, 0, 0);
+    overflow: auto;
+  }
+  
+  .nav a {
+    font: bold;
+    text-decoration: none;
+    padding: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav a:hover {
+    background-color: rgba(22, 82, 160, 100);
+  }
+  
+  .nav li {
+    padding: none;
+    float: left; /* Remove float for horizontal layout */
+  }
+  
+  header div, nav {
+    padding: none;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.795);
+    padding: 0px  
+  }
+  
+  .logo img {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 192px;
+    padding: none;  
+  }
+
+ main .faqtable{
+    background-color: white;
+ }
